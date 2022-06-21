@@ -13,7 +13,7 @@ markup.add(item1, item2)
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
-	bot.reply_to(message, f'Вы {random.choice(config.character_list)} смеритесь с этим+', parse_mode='html', reply_markup=markup)
+	bot.reply_to(message, f'Вы {random.choice(config.character_list)} смеритесь с этим', parse_mode='html', reply_markup=markup)
 
 
 @bot.message_handler(content_types=['text'])
@@ -26,7 +26,7 @@ def check_text(message):
 						 f'\nБагаж: <b>{random.choice(config.things_list)}</b> \nФакты: <b>{random.choice(config.achievements_list)}</b> ' \
 						 f'\nОсобые условия: <b>{random.choice(config.condition_list)}</b> ' \
 						 f'\nУдачной игры:3'
-			bot.send_message(message.chat.id, message_text, parse_mode='html', reply_markup=types.ReplyKeyboardRemove())
+			bot.send_message(message.chat.id, message_text, parse_mode='html')#reply_markup=types.ReplyKeyboardRemove()
 		elif message.text == 'Сгенерировать сюжет':
 			message_text = f'Сюжет игры: <b>{random.choice(config.story_list)}</b> ' \
 						   f'\nУсловия бункера: <b>{random.choice(config.bunker_list)}</b> \nУдачной игры:3'
