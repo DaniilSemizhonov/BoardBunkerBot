@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="555ec101-b385-4c12-8f7a-b195301f9776" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Freeze Requirements File" />
       </list>
     </option>
   </component>
@@ -69,7 +71,9 @@
       <workItem from="1655638249721" duration="6309000" />
       <workItem from="1655724707359" duration="1295000" />
       <workItem from="1655780414389" duration="592000" />
-      <workItem from="1655784312283" duration="301000" />
+      <workItem from="1655784312283" duration="1088000" />
+      <workItem from="1655796378205" duration="2000" />
+      <workItem from="1656051536849" duration="2304000" />
     </task>
     <servers />
   </component>
@@ -77,6 +81,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/BoardBunkerBot$main.coverage" NAME="main Coverage Results" MODIFIED="1655784565479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BoardBunkerBot$main.coverage" NAME="main Coverage Results" MODIFIED="1656055225129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
